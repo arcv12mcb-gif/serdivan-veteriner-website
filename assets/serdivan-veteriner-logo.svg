@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 170" role="img" aria-labelledby="title desc">
   <title id="title">Serdivan Veteriner Kliniği logosu</title>
-  <desc id="desc">Kırmızı hilal üzerinde gri köpek, koyu silüet ve beyaz kedi figürleri.</desc>
+  <desc id="desc">Kırmızı hilal üzerinde solda köpek gölgesi, sağda beyaz kedi silüeti.</desc>
   <defs>
-    <filter id="coolGlow" x="-18%" y="-28%" width="136%" height="156%">
-      <feGaussianBlur stdDeviation="4.5" result="blur"/>
+    <filter id="logoGlow" x="-18%" y="-28%" width="136%" height="156%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
       <feColorMatrix
         in="blur"
         type="matrix"
-        values="0.38 0 0 0 0.38  0 0.52 0 0 0.60  0 0 0.78 0 0.94  0 0 0 0.55 0"
+        values="0.44 0 0 0 0.38  0 0.54 0 0 0.62  0 0 0.82 0 0.95  0 0 0 0.48 0"
       />
       <feMerge>
         <feMergeNode/>
@@ -16,53 +16,44 @@
     </filter>
   </defs>
 
-  <g filter="url(#coolGlow)">
+  <g filter="url(#logoGlow)">
     <path
-      fill="#d91f2e"
-      d="M28 107C28 62 62 29 105 22 58 45 48 103 87 130c35 24 94 20 137-7-35 42-110 55-159 27-24-14-37-28-37-43Z"
+      fill="#d81f2d"
+      d="M26 104C27 62 59 30 105 22 62 45 49 94 76 121c35 35 106 33 153 3-35 41-111 55-162 26-27-15-42-30-41-46Z"
+    />
+
+    <path
+      fill="#fbfcf8"
+      d="M169 54c1-12 8-25 21-34 3 15 12 25 25 30 19 7 31 26 29 47-2 25-19 42-45 49-29 8-63 0-83-20 25 9 57 5 76-11 16-14 22-35 12-53-9-17-23-15-35-8Z"
     />
     <path
-      fill="#f5f7f4"
-      d="M128 126c18 13 50 19 76 7 27-12 42-37 34-64-4-14-15-25-30-30-8-3-16-11-18-21-13 8-19 21-16 34-16 5-29 16-35 31-7 17-5 31-11 43Z"
+      fill="#fbfcf8"
+      d="M154 75c8-18 25-31 46-32 3 13 17 21 27 29 12 10 15 29 6 44-18 30-72 33-104 9 15-11 19-32 25-50Z"
     />
     <path
-      fill="#f5f7f4"
-      d="M187 44c18 12 33 30 36 52 2 19-8 33-27 39-25 8-52-1-68-21 24 8 53 5 70-12 14-14 15-36-11-58Z"
-      opacity="0.92"
+      fill="#fbfcf8"
+      d="M190 23c-14 12-20 24-17 39l31-13c-9-6-13-15-14-26Z"
+    />
+
+    <path
+      fill="#5f6a6c"
+      d="M72 45c18-23 55-27 77-8 18 16 21 44 6 63-17 21-51 24-75 6-22-16-27-39-8-61Z"
     />
     <path
-      fill="#293233"
-      d="M76 41c18-15 43-18 62-6 18 11 27 32 21 52-3 11-11 21-22 28-22 14-52 11-70-8-16-18-13-48 9-66Z"
+      fill="#313a3b"
+      d="M102 33c13-11 31-12 45-2-9 9-21 12-34 8-4 16-17 26-34 29 1-15 9-27 23-35Z"
     />
     <path
-      fill="#647072"
-      d="M67 49c15-22 48-27 68-10 15 12 19 34 10 50-8 15-25 23-43 20-9-2-17-6-24-13-10-11-15-31-11-47Z"
-    />
-    <path
-      fill="#293233"
-      d="M99 37c12-9 28-10 39-2-7 8-17 11-29 8-3 14-13 23-27 27 0-14 6-26 17-33Z"
-    />
-    <path
-      fill="#293233"
-      d="M115 84c15 21 46 28 72 16-14 26-47 39-77 28-22-8-37-26-42-48 16 7 32 9 47 4Z"
-    />
-    <path
-      fill="#202829"
-      d="M141 61c7 11 17 19 30 23-9 13-25 20-41 17-15-3-27-13-32-27 16 5 31 1 43-13Z"
-    />
-    <path
-      fill="none"
-      stroke="#202829"
-      stroke-linecap="round"
-      stroke-width="9"
-      d="M82 60c15 7 29 7 42-1"
+      fill="#313a3b"
+      d="M72 83c17 11 38 14 58 6 11-4 20-12 26-22 10 20 4 44-16 58-26 18-67 8-80-21-3-7 2-16 12-21Z"
+      opacity="0.88"
     />
     <path
       fill="none"
-      stroke="#202829"
+      stroke="#313a3b"
       stroke-linecap="round"
-      stroke-width="7"
-      d="M89 82c12 8 28 9 43 2"
+      stroke-width="8"
+      d="M84 62c14 7 30 7 44-1"
     />
   </g>
 </svg>
